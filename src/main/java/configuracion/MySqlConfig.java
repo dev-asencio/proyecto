@@ -17,7 +17,6 @@ public class MySqlConfig {
         String url = "jdbc:mysql://"+host+"/"+db+"?user="+user+"&password="+pass;
         return DriverManager.getConnection(url);
     }
-    public ResultSet getResulSet(CallableStatement callableStatement) throws SQLException{
-        return  callableStatement.executeQuery();
-    }
+
+
 }
