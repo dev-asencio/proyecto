@@ -17,35 +17,27 @@ public class Reserva {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public Date getFechaReserva() {
         return fechaReserva;
     }
-
     public void setFechaReserva(Date fechaReserva) {
         this.fechaReserva = fechaReserva;
     }
-
     public Libro getLibro() {
         return libro;
     }
-
     public void setLibro(Libro libro) {
         this.libro = libro;
     }
-
     public Usuario getUsuario() {
         return usuario;
     }
-
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
     public void mostrarInformacion() {
         System.out.println("Reserva ID: " + id);
         System.out.println("Fecha de reserva: " + fechaReserva);

@@ -21,39 +21,30 @@ public class Prestamo {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public Date getFechaPrestamo() {
         return fechaPrestamo;
     }
-
     public void setFechaPrestamo(Date fechaPrestamo) {
         this.fechaPrestamo = fechaPrestamo;
     }
-
     public Date getFechaDevolucion() {
         return fechaDevolucion;
     }
-
     public void setFechaDevolucion(Date fechaDevolucion) {
         this.fechaDevolucion = fechaDevolucion;
     }
-
     public Libro getLibroPrestado() {
         return libroPrestado;
     }
-
     public void setLibroPrestado(Libro libroPrestado) {
         this.libroPrestado = libroPrestado;
     }
-
     public Usuario getUsuario() {
         return usuario;
     }
-
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }

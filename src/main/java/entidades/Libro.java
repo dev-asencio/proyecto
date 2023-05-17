@@ -7,7 +7,7 @@ public class Libro {
     private int anioPublicacion;
     private String genero;
 
-    // Constructor
+
     public Libro(int id, String titulo, String autor, int anioPublicacion, String genero) {
         this.id = id;
         this.titulo = titulo;
@@ -16,7 +16,7 @@ public class Libro {
         this.genero = genero;
     }
 
-    // Métodos getter y setter
+
     public int getId() {
         return id;
     }
